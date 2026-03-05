@@ -5,7 +5,7 @@
 #include "StarknetDomain.hpp"
 #include "Auth.hpp"
 #include "Message.hpp"
-#include "StarkCurveSigner.hpp"
+#include "StarkCurveSigner.hpp"\
 
 namespace signer
 {
