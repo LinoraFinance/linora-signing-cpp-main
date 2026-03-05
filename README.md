@@ -57,6 +57,8 @@ In root run
    
 # Running tests
 
+It`s
+
 After successful compilation executables shall be located in: `project-root/build/tests`.
 
 - To run gtests:
