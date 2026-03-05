@@ -1,6 +1,7 @@
 # starknet-signing-cpp
 
 # Overview
+
 ## What does it do
 This C++ library is used to sign requests for authentication and orders sent to linora.
 The signature is passed with every authertication request and order and proves that whoever sent this it has access to a private key of the account.
@@ -52,7 +53,8 @@ In root run
 3) The compiled library resides in
    ```
    project-root/build/src/libsigner.a
-   ```    
+   ```
+   
 # Running tests
 
 After successful compilation executables shall be located in: `project-root/build/tests`.
