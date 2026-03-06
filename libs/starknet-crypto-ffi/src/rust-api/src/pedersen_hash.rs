@@ -14,6 +14,7 @@ pub extern "C" fn pedersen_hash(x: *const u64, x_len: usize, y: *const u64, y_le
     // validate_ptr!(output, ERR_NULLPTR_OUTPUT);
 
     if x_len != FELT_LIMBS_LEN {
+        
         return ERR_X_LEN;
     }
     let x = raw_pointer_into_felt(x);
