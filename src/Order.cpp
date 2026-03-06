@@ -7,6 +7,7 @@
 #include "UtilsImpl.hpp"
 #include "SignerException.hpp"
 
+
 namespace signer
 {
 Order::Order( const std::string& theMarket, OrderSide theOrderSide, OrderType theOrderType, double theSize,
