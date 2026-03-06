@@ -14,6 +14,7 @@ int32_t ecdsa_verify(const uint64_t*, size_t, const uint64_t*, size_t, const uin
 
 }
 
+
 class Ecdsa
 {
   public:
