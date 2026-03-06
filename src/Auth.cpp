@@ -8,6 +8,7 @@ namespace signer
 {
 
 Auth::Auth()
+
 {
     using namespace std::chrono;
 
