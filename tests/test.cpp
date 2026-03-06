@@ -38,6 +38,7 @@ TEST( Utils, getSelectorFromName )
 
         EXPECT_EQ( expected, res );
     }
+    
 
     {
         const auto res = strToFelt("PRIVATE_SN_POTC_GOERLI", strlen("PRIVATE_SN_POTC_GOERLI"));
