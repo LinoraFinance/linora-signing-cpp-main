@@ -11,6 +11,7 @@ namespace signer
 using Uint256 = starkware::PrimeFieldElement::ValueType;
 
 class StarknetDomain: public HashableIface
+
 {
   public:
     explicit StarknetDomain(const std::string& theChainId);
