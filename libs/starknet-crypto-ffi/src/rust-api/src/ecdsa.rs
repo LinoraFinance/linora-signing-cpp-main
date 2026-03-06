@@ -40,6 +40,7 @@ pub extern "C" fn sign(
         return ERR_MESSAGE_HASH_LEN;
     }
     let message_hash = raw_pointer_into_felt(message_hash);
+    
 
     if k_len != FELT_LIMBS_LEN {
         return ERR_MESSAGE_HASH_LEN;
