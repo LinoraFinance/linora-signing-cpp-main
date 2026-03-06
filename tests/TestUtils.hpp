@@ -8,6 +8,7 @@
 #include "Message.hpp"
 
 namespace signer
+
 {
 
 StarknetDomain getStarknetDomain();
