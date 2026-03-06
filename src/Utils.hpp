@@ -16,6 +16,7 @@ template< size_t StrLen >
 struct StrToUint64Len
 {
     static constexpr size_t value = ( sizeof( char ) * StrLen + sizeof( uint64_t ) - 1 ) / sizeof( uint64_t );
+
 };
 
 /*
