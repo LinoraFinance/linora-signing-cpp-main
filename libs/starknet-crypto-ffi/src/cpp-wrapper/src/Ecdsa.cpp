@@ -38,6 +38,7 @@ starkware::Signature Ecdsa::ecdsaSign(
 
     std::array< uint64_t, 4 > rawR = { 0, 0, 0, 0 };
     std::array< uint64_t, 4 > rawS = { 0, 0, 0, 0 };
+    
 
     /// NOTE: s is inversed
     int code = sign( rawPrivateKey.data(), 4, rawMessageHash.data(), 4, rawK.data(), 4, rawR.data(), rawS.data() );
