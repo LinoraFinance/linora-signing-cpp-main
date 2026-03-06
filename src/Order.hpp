@@ -21,6 +21,7 @@ enum OrderSide
 static std::string toString( OrderSide side );
 static starkware::PrimeFieldElement encodeChainSide( OrderSide value );
 
+
 enum OrderType
 {
     Market,
