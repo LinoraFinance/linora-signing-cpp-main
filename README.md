@@ -52,6 +52,7 @@ In root run
     ```
 3) The compiled library resides in
    ```
+   
    project-root/build/src/libsigner.a
    ```
    
