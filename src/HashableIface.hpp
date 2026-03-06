@@ -8,6 +8,7 @@ namespace signer
 {
 
 /// To Hash smth this value has to be Encodable into Felt
+
 class HashableIface: public EncodableIface
 {
   public:
