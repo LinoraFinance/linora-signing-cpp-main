@@ -35,6 +35,7 @@
 #define to_be64(X) X
 #endif
 
+
 /** Loads 64-bit integer from given memory location as little-endian number. */
 static inline uint64_t load_le(const uint8_t* data)
 {
