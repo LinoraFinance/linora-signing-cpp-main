@@ -15,6 +15,7 @@ enable_testing()
 
 include_directories(${CMAKE_SOURCE_DIR}/libs/crypto-cpp/src)
 
+
 if(NOT WIN_32)
     list(APPEND OPTIONAL_LIBS pthread)
 endif()
