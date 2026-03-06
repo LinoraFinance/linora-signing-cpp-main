@@ -10,6 +10,7 @@ authors = ["Edwin Paco <edwinswatpako@gmail.com>"]
 starknet-crypto = "0.6.0"
 starknet-core = "0.5.1"
 
+
 [lib]
 name = "starkware_rust_api"
 crate-type = ["staticlib"]
