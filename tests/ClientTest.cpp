@@ -12,6 +12,7 @@ size_t writeCallback(char* ptr, size_t size, size_t nmemb, std::string* response
     size_t totalSize = size * nmemb;
     response->append(ptr, totalSize);
     return totalSize;
+    
 }
 
 int postOrder(const signer::Account& account, const std::string& jwtToken)
