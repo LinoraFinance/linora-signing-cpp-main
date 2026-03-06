@@ -22,6 +22,7 @@ class ApiException: public std::exception
         errorString << code;
 
         return errorString.str();
+      
     }
 
   private:
