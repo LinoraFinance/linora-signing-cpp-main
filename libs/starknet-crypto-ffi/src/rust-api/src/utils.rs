@@ -13,6 +13,7 @@ pub(crate) fn raw_pointer_into_felt(src: *const u64) -> FieldElement {
     let mut output: [u64; 4] = [0; 4];
     unsafe {
         std::ptr::copy(src, output.as_mut_ptr(), FELT_LIMBS_LEN);
+        
     }
 
     FieldElement::from_mont(output)
