@@ -23,6 +23,7 @@ StarknetDomain::StarknetDomain( const Uint256& theChainId )
 }
 
 std::vector< starkware::PrimeFieldElement > StarknetDomain::pedersenEncode() const
+
 {
     static constexpr char const* strStarknetDomain = "StarkNetDomain(name:felt,chainId:felt,version:felt)";
     static constexpr char const* strName = "linora";
