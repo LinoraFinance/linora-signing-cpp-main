@@ -9,6 +9,7 @@ nlohmann_json_DIR="$1"
 # Building from zero everytime.
 rm -rf build && mkdir build
 
+
 # Run conan to install libcurl
 cd ./libs/curlpp
 conan install . --build=missing -s build_type=Release
