@@ -7,6 +7,7 @@
 namespace signer
 {
 
+
 class SignerException: public std::exception
 {
   public:
