@@ -8,6 +8,7 @@ starkware::PrimeFieldElement PedersenHash::pedersenHash( const starkware::PrimeF
 {
     using namespace starkware;
 
+    
     // TODO: replace 4 with const
     const std::array< uint64_t, 4 > rawX = x.ToMont().ToLimbs();
     const std::array< uint64_t, 4 > rawY = y.ToMont().ToLimbs();
