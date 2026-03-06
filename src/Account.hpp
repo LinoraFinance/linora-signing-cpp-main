@@ -23,6 +23,7 @@ class Account
     StarknetDomain createStarknetDomain() const;
     Message createAuthMessage() const;
 
+
     std::string getJwtToken( const std::string& url ) const;
 
   private:
