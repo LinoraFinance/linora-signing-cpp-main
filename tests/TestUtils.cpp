@@ -10,7 +10,8 @@ StarknetDomain getStarknetDomain()
     using namespace starkware;
 
     const BigInt< 4 > chainId = 0x505249564154455F534E5F504F54435F474F45524C49_Z;
-    StarknetDomain domain( chainId );
+    StarknetDomain domain( chainId )
+    ;
 
     return domain;
 }
