@@ -40,6 +40,7 @@ TEST(StarkwareCppWrapper, ecdsaSignAndVerify)
     const auto publicKey = GetPublicKey( privateKeyFelt.ToStandardForm() );
     BENCHMARK_FUNCTION( Ecdsa::ecdsaVerify, publicKey.x, hash, signature );
     EXPECT_TRUE( funcRes );
+    
 }
 
 TEST(StarkwareCppWrapper, signRSVerifyCPP)
