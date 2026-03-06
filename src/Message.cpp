@@ -4,6 +4,7 @@
 #include "Message.hpp"
 
 namespace signer
+
 {
 
 Message::Message( PrimeFieldElement theAccountAddress, HashableIface::Pointer theDomain, HashableIface::Pointer thePrimaryType )
