@@ -36,6 +36,7 @@
 //    PrimeFieldElement res = signer::hashElements( domain.pedersenEncode() );
 //    std::cout << res << std::endl;
 //
+
 //    return 0;
 //}
 //
