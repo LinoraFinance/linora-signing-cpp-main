@@ -19,6 +19,7 @@ namespace signer
 {
 
 PrimeFieldElement hashElements( const std::vector< PrimeFieldElement >& elements )
+
 {
     constexpr PrimeFieldElement numInitValue = PrimeFieldElement::Zero();
 
