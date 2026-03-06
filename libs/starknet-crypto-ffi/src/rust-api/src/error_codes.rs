@@ -19,3 +19,4 @@ pub const ERR_NULLPTR_PRIVATE_KEY: i32 = 17;
 pub const ERR_NULLPTR_K: i32 = 18;
 pub const ERR_X_LEN: i32 = 19;
 pub const ERR_Y_LEN: i32 = 20;
+
