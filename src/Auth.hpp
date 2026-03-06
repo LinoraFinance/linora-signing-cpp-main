@@ -8,6 +8,7 @@
 namespace signer
 {
 
+
 class Auth: public HashableIface
 {
   public:
