@@ -7,6 +7,7 @@ namespace StarkwareCppWrapper
 {
 
 extern "C" {
+
 int32_t pedersen_hash( const uint64_t*, size_t, const uint64_t*, size_t, uint64_t* );
 }
 
