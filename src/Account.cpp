@@ -51,6 +51,7 @@ std::string Account::extractJwtToken(const std::string& jsonString)
     try
     {
         auto json = nlohmann::json::parse(jsonString);
+        
         return json["jwt_token"];
     }
     catch (const nlohmann::json::exception& e)
