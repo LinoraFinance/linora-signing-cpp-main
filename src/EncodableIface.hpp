@@ -8,6 +8,7 @@
 namespace signer
 {
 
+
 class EncodableIface
 {
   public:
