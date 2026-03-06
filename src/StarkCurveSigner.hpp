@@ -8,6 +8,7 @@
 
 #include "EncodableIface.hpp"
 
+
 namespace signer
 {
 
